@@ -1,0 +1,60 @@
+Hello World, UART printf_string() demo !!!!!!!!!!
+
+SPI TEST
+SPI Flash first 16 bytes are:
+        70 50 00 00 00 00 06 D0 E0 97 00 20 C1 00 00 00
+
+I2C TEST
+I2C Flash 256-287 (32)bytes are:
+        E5 05 00 00 FE E7 FE E7 FE E7 FE E7 FE E7 FE E7 38 B5 62 B6 08 4C 09 48 09 4D 0A 4B 20 60 2B 60
+
+SW Timer with PWM TEST
+! ! ! ! ! ! ! ! ! !
+ 10 sec passed, timer closed
+
+KEYBOARD TEST
+
+Press 4 times * 9 6 3
+3 3 3 3 6 6 6 6 9 9 9 9 * * * *
+Press any key, # for exit
+* 5 4 6 4 4 L
+
+WAKEUP TEST
+
+Wait 10 events on P01
+01 0A
+02 0B
+03 0B
+04 0D
+05 0C
+06 0A
+07 0E
+08 0B
+09 0B
+0A 0D
+
+QUADRATURE TEST
+
+move mouse
+FFEE 0002
+FFDA 0002
+FFC5 0002
+FFB0 0002
+FFA8 FFF5
+FFA2 FFE7
+FFA0 FFD4
+FFA3 FFC3
+FFA8 FFB1
+FFAD FFA2
+FFB2 FF93
+FFB7 FF83
+FFBD FF73
+FFC5 FF64
+FFD0 FF59
+FFE1 FF57
+FFF1 FF5C
+FFFC FF66
+0005 FF71
+000B FF80
+
+End DEMO, thank you
