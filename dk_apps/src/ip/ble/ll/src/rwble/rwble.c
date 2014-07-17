@@ -231,9 +231,9 @@ void BLE_SLP_Handler(void)
 	ble_regs_pop();
 //	smpc_regs_pop();
     
-
+#ifndef DEVELOPMENT_DEBUG
 	SetBits16(SYS_CTRL_REG, DEBUGGER_ENABLE, 0);   
-
+#endif
 	SetBits16(GP_CONTROL_REG, BLE_WAKEUP_REQ, 0);   //just to be sure    
 
     if(jump_table_struct[0] == TASK_GTL)	
